@@ -1,0 +1,90 @@
+body{
+    background-color: darkslategray;
+}
+header{
+    width: 80%;
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 2rem auto;   
+    text-align: center;
+    border-radius: 5rem  0rem;
+    background-color: cyan;
+
+}
+
+.search{
+    margin: 1rem auto;
+    padding: auto 1rem;
+    text-align: center;
+}
+.search input{
+    height: 2rem;
+    color: white;
+    text-align: center;
+    width: 100%;
+    max-width: 15rem;
+    padding: auto 1rem;
+    border-radius: 2rem;
+    background-color:darkslategray;
+}
+
+.listheader{
+    width: 50%;
+    border: none;
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+    margin: 1rem auto;
+    text-align: center;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    background-color: darkslategray;
+}
+.list{
+    width: 80%;
+    height: 80%;
+    padding: 1rem ;
+    list-style:none;
+    min-height: 5rem;
+    margin: 3rem auto;
+    margin-bottom: 5rem;
+    border-radius: 5rem;
+    border-style: inset;
+    border-width: 0.5rem;
+    background-color: cyan;
+    
+}
+.lists{
+    padding: 0.2rem;
+    border-radius: 5rem;
+
+}
+.minus{
+    top: 0rem;
+    right: 3rem;
+    font-size: 3rem;
+    position: absolute;
+}
+.listelement{
+    color: white;
+    position: relative;
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+    border-left: 1rem solid white;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: darkslategray;
+}
+.form{
+    margin: 1rem auto;
+    text-align: center;
+}
+.form input{
+    height: 2rem;
+    width: 15rem;
+    color: white;
+    padding: 0rem 1rem;
+    border-radius: 2rem;
+    background-color: darkslategray;
+}
